@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+        }
+        nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 1em;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        h2 {
+            color: gray; /* Default color for h2 tags */
+        }
+        h2:target {
+            color: black; /* Color when the corresponding navbar item is pressed */
+        }
+        .product-menu {
+            margin: 2em 0;
+        }
+        .product-menu ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .product-menu li {
+            background-color: #f4f4f4;
+            margin: 0.5em 0;
+            padding: 1em;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>E-Commerce Website</h1>
+</header>
+
+<nav>
+    <a href="#products">Product Categories</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section>
+    <h2 id="products" style="color: black;">Product Categories</h2> <!-- Default selected -->
+    <div class="product-menu">
+        <ul>
+            <li>Product 1 - Description of product 1</li>
+            <li>Product 2 - Description of product 2</li>
+            <li>Product 3 - Description of product 3</li>
+            <li>Product 4 - Description of product 4</li>
+        </ul>
+    </div>
+    <h2 id="about">About</h2>
+    <p>This is the about section. You can add information about yourself or your website here.</p>
+    <h2 id="contact">Contact</h2>
+    <p>This is the contact section. Provide your contact details or a contact form here.</p>
+</section>
+
+<footer>
+    &copy; 2024 E-Commerce Website
+</footer>
+
+</body>
+</html>
